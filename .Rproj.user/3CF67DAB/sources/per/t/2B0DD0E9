@@ -1,0 +1,27 @@
+{
+    "id": "2B0DD0E9",
+    "path": "~/github/PLPViewer/global.R",
+    "project_path": "global.R",
+    "type": "r_source",
+    "hash": "3016815593",
+    "contents": "",
+    "dirty": false,
+    "created": 1667048405327.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "marks": "<:10,78\n>:29,73",
+        "cursorPosition": "24,6",
+        "scrollLine": "6"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1667088130,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1667088130466,
+    "read_only": false,
+    "read_only_alternatives": []
+}

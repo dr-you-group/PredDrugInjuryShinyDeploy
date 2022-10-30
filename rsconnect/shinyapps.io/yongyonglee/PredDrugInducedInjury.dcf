@@ -1,0 +1,13 @@
+name: PredDrugInducedInjury
+title: PredDrugInducedInjury
+username:
+account: yongyonglee
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 7459872
+bundleId: 6455077
+url: https://yongyonglee.shinyapps.io/PredDrugInducedInjury/
+when: 1667091052.34665
+lastSyncTime: 1667091052.34665
+asMultiple: FALSE
+asStatic: FALSE

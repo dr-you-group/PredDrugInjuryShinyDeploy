@@ -1,0 +1,231 @@
+2022-09-05 09:10:32	[Main thread]	INFO	PatientLevelPrediction	printHeader	Patient-Level Prediction Package version 5.0.5
+2022-09-05 09:10:32	[Main thread]	INFO	PatientLevelPrediction	printHeader	Study started at: 2022-09-05 09:10:32
+2022-09-05 09:10:32	[Main thread]	INFO	PatientLevelPrediction	printHeader	AnalysisID:         Analysis_14
+2022-09-05 09:10:32	[Main thread]	INFO	PatientLevelPrediction	printHeader	AnalysisName:       Study details
+2022-09-05 09:10:32	[Main thread]	INFO	PatientLevelPrediction	printHeader	CohortID:           1779586
+2022-09-05 09:10:32	[Main thread]	INFO	PatientLevelPrediction	printHeader	OutcomeID:          1779558
+2022-09-05 09:10:32	[Main thread]	INFO	PatientLevelPrediction	printHeader	Cohort size:        2843
+2022-09-05 09:10:32	[Main thread]	INFO	PatientLevelPrediction	printHeader	Covariates:         20326
+2022-09-05 09:10:32	[Main thread]	INFO	PatientLevelPrediction		Outcome is 0 or 1
+2022-09-05 09:10:32	[Main thread]	INFO	PatientLevelPrediction	checkInputsSplit	seed: 86157
+2022-09-05 09:10:32	[Main thread]	INFO	PatientLevelPrediction		Creating a 25% test and 75% train (into 5 folds) stratified split by subject
+2022-09-05 09:10:32	[Main thread]	INFO	PatientLevelPrediction		Data split into 225 test cases and 636 train cases (117, 125, 127, 137, 130)
+2022-09-05 09:10:50	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Train Set:
+2022-09-05 09:10:50	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Fold 1 117 patients with 13 outcomes - Fold 2 125 patients with 12 outcomes - Fold 3 127 patients with 10 outcomes - Fold 4 137 patients with 12 outcomes - Fold 5 130 patients with 10 outcomes
+2022-09-05 09:10:51	[Main thread]	INFO	PatientLevelPrediction	dataSummary	14980 covariates in train data
+2022-09-05 09:10:51	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Test Set:
+2022-09-05 09:10:51	[Main thread]	INFO	PatientLevelPrediction	dataSummary	225 patients with 18 outcomes
+2022-09-05 09:10:51	[Main thread]	INFO	PatientLevelPrediction	sampleData	Starting data sampling
+2022-09-05 09:10:51	[Main thread]	INFO	PatientLevelPrediction	sampleData	Applying sameData
+2022-09-05 09:10:51	[Main thread]	INFO	PatientLevelPrediction		No sampling - returning same data
+2022-09-05 09:10:51	[Main thread]	INFO	PatientLevelPrediction	sampleData	Finished data sampling
+2022-09-05 09:10:51	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Train Set:
+2022-09-05 09:10:51	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Fold 1 117 patients with 13 outcomes - Fold 2 125 patients with 12 outcomes - Fold 3 127 patients with 10 outcomes - Fold 4 137 patients with 12 outcomes - Fold 5 130 patients with 10 outcomes
+2022-09-05 09:10:51	[Main thread]	INFO	PatientLevelPrediction	dataSummary	14980 covariates in train data
+2022-09-05 09:10:51	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Test Set:
+2022-09-05 09:10:51	[Main thread]	INFO	PatientLevelPrediction	dataSummary	225 patients with 18 outcomes
+2022-09-05 09:10:51	[Main thread]	INFO	PatientLevelPrediction	featureEngineer	Starting Feature Engineering
+2022-09-05 09:10:51	[Main thread]	INFO	PatientLevelPrediction	featureEngineer	Applying sameData
+2022-09-05 09:10:51	[Main thread]	INFO	PatientLevelPrediction		No sampling - returning same data
+2022-09-05 09:10:51	[Main thread]	INFO	PatientLevelPrediction	featureEngineer	Done Feature Engineering
+2022-09-05 09:10:51	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Train Set:
+2022-09-05 09:10:51	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Fold 1 117 patients with 13 outcomes - Fold 2 125 patients with 12 outcomes - Fold 3 127 patients with 10 outcomes - Fold 4 137 patients with 12 outcomes - Fold 5 130 patients with 10 outcomes
+2022-09-05 09:10:51	[Main thread]	INFO	PatientLevelPrediction	dataSummary	14980 covariates in train data
+2022-09-05 09:10:51	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Test Set:
+2022-09-05 09:10:51	[Main thread]	INFO	PatientLevelPrediction	dataSummary	225 patients with 18 outcomes
+2022-09-05 09:10:58	[Main thread]	INFO	FeatureExtraction		Removing 150 redundant covariates
+2022-09-05 09:10:59	[Main thread]	INFO	FeatureExtraction		Removing 0 infrequent covariates
+2022-09-05 09:10:59	[Main thread]	INFO	FeatureExtraction		Normalizing covariates
+2022-09-05 09:11:05	[Main thread]	INFO	FeatureExtraction		Tidying covariates took 13.6 secs
+2022-09-05 09:11:05	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Train Set:
+2022-09-05 09:11:05	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Fold 1 117 patients with 13 outcomes - Fold 2 125 patients with 12 outcomes - Fold 3 127 patients with 10 outcomes - Fold 4 137 patients with 12 outcomes - Fold 5 130 patients with 10 outcomes
+2022-09-05 09:11:06	[Main thread]	INFO	PatientLevelPrediction	dataSummary	14830 covariates in train data
+2022-09-05 09:11:06	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Test Set:
+2022-09-05 09:11:06	[Main thread]	INFO	PatientLevelPrediction	dataSummary	225 patients with 18 outcomes
+2022-09-05 09:11:06	[Main thread]	INFO	PatientLevelPrediction		
+2022-09-05 09:11:06	[Main thread]	INFO	PatientLevelPrediction		Training Gradient Boosting Machine
+2022-09-05 09:11:06	[Main thread]	INFO	PatientLevelPrediction	toSparseM	starting toSparseM
+2022-09-05 09:11:06	[Main thread]	INFO	PatientLevelPrediction	MapIds	starting to map the columns and rows
+2022-09-05 09:11:18	[Main thread]	INFO	PatientLevelPrediction	MapIds	finished MapCovariates
+2022-09-05 09:11:18	[Main thread]	INFO	PatientLevelPrediction	toSparseM	toSparseM non temporal used
+2022-09-05 09:11:18	[Main thread]	INFO	PatientLevelPrediction	checkRam	plpData size estimated to use 0.85% of available RAM (0GBs)
+2022-09-05 09:11:23	[Main thread]	INFO	PatientLevelPrediction	toSparseM	finishing toSparseM
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:23	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:24	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:24	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:24	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:24	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:24	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:24	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:33	[Main thread]	INFO	PatientLevelPrediction		Removing infrequent and redundant covariates and normalizing
+2022-09-05 09:17:37	[Main thread]	INFO	PatientLevelPrediction	toSparseM	starting toSparseM
+2022-09-05 09:17:37	[Main thread]	INFO	PatientLevelPrediction	MapIds	starting to map the columns and rows
+2022-09-05 09:17:41	[Main thread]	INFO	PatientLevelPrediction	MapIds	finished MapCovariates
+2022-09-05 09:17:41	[Main thread]	INFO	PatientLevelPrediction	toSparseM	toSparseM non temporal used
+2022-09-05 09:17:41	[Main thread]	INFO	PatientLevelPrediction	checkRam	plpData size estimated to use 0.26% of available RAM (0GBs)
+2022-09-05 09:17:43	[Main thread]	INFO	PatientLevelPrediction	toSparseM	finishing toSparseM
+2022-09-05 09:17:44	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calculating Performance for Test
+2022-09-05 09:17:44	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	=============
+2022-09-05 09:17:44	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:44	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUC                 70.93
+2022-09-05 09:17:44	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% lower AUC:      58.12
+2022-09-05 09:17:44	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% upper AUC:      83.74
+2022-09-05 09:17:44	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUPRC:              15.08
+2022-09-05 09:17:44	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Brier:              0.08
+2022-09-05 09:17:44	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Eavg:               0.06
+2022-09-05 09:17:44	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Mean predicted risk 0.0387 : observed risk 0.08
+2022-09-05 09:17:44	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Intercept 1.01
+2022-09-05 09:17:44	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Weak calibration intercept: -0.8208 - gradient:0.4099
+2022-09-05 09:17:44	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Hosmer-Lemeshow calibration gradient: 0.58 intercept:         0.06
+2022-09-05 09:17:44	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Average Precision:  0.17
+2022-09-05 09:17:44	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calculating Performance for Train
+2022-09-05 09:17:44	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	=============
+2022-09-05 09:17:44	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:44	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUC                 99.74
+2022-09-05 09:17:44	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% lower AUC:      99.38
+2022-09-05 09:17:44	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% upper AUC:      100.00
+2022-09-05 09:17:44	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUPRC:              92.08
+2022-09-05 09:17:44	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Brier:              0.01
+2022-09-05 09:17:44	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Eavg:               0.02
+2022-09-05 09:17:44	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Mean predicted risk 0.0844 : observed risk 0.0896
+2022-09-05 09:17:44	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Intercept 0.2497
+2022-09-05 09:17:44	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Weak calibration intercept: 1.7449 - gradient:1.674
+2022-09-05 09:17:44	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Hosmer-Lemeshow calibration gradient: 1.17 intercept:         -0.01
+2022-09-05 09:17:44	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Average Precision:  0.93
+2022-09-05 09:17:45	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calculating Performance for CV
+2022-09-05 09:17:45	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	=============
+2022-09-05 09:17:45	[Main thread]	INFO	pROC	roc.default	Setting levels: control = 0, case = 1 
+2022-09-05 09:17:45	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUC                 80.81
+2022-09-05 09:17:45	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% lower AUC:      75.18
+2022-09-05 09:17:45	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% upper AUC:      86.44
+2022-09-05 09:17:45	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUPRC:              33.59
+2022-09-05 09:17:45	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Brier:              0.07
+2022-09-05 09:17:45	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Eavg:               0.03
+2022-09-05 09:17:45	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Mean predicted risk 0.073 : observed risk 0.0896
+2022-09-05 09:17:45	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Intercept 0.2439
+2022-09-05 09:17:45	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Weak calibration intercept: 1.0726 - gradient:1.3633
+2022-09-05 09:17:45	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Hosmer-Lemeshow calibration gradient: 1.52 intercept:         -0.02
+2022-09-05 09:17:45	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Average Precision:  0.34
+2022-09-05 09:17:46	[Main thread]	INFO	PatientLevelPrediction		Calculating covariate summary @ 2022-09-05 09:17:46
+2022-09-05 09:17:46	[Main thread]	INFO	PatientLevelPrediction		This can take a while...
+2022-09-05 09:17:46	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	Creating binary labels
+2022-09-05 09:17:46	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	Joining with strata
+2022-09-05 09:17:46	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	calculating subset of strata 1
+2022-09-05 09:17:46	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	calculating subset of strata 2
+2022-09-05 09:17:46	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	calculating subset of strata 3
+2022-09-05 09:17:46	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	calculating subset of strata 4
+2022-09-05 09:17:46	[Main thread]	INFO	PatientLevelPrediction		Restricting to subgroup
+2022-09-05 09:17:46	[Main thread]	INFO	PatientLevelPrediction		Calculating summary for subgroup TrainWithNoOutcome
+2022-09-05 09:17:56	[Main thread]	INFO	PatientLevelPrediction		Restricting to subgroup
+2022-09-05 09:17:56	[Main thread]	INFO	PatientLevelPrediction		Calculating summary for subgroup TestWithNoOutcome
+2022-09-05 09:18:05	[Main thread]	INFO	PatientLevelPrediction		Restricting to subgroup
+2022-09-05 09:18:05	[Main thread]	INFO	PatientLevelPrediction		Calculating summary for subgroup TrainWithOutcome
+2022-09-05 09:18:13	[Main thread]	INFO	PatientLevelPrediction		Restricting to subgroup
+2022-09-05 09:18:13	[Main thread]	INFO	PatientLevelPrediction		Calculating summary for subgroup TestWithOutcome
+2022-09-05 09:18:22	[Main thread]	INFO	PatientLevelPrediction	aggregateCovariateSummaries	Aggregating with labels and strata
+2022-09-05 09:18:30	[Main thread]	INFO	PatientLevelPrediction		Finished covariate summary @ 2022-09-05 09:18:30
+2022-09-05 09:18:30	[Main thread]	INFO	PatientLevelPrediction		Run finished successfully.
+2022-09-05 09:18:30	[Main thread]	INFO	PatientLevelPrediction		Saving PlpResult
+2022-09-05 09:18:30	[Main thread]	INFO	PatientLevelPrediction	savePlpModel	Creating directory to save model
+2022-09-05 09:18:31	[Main thread]	INFO	PatientLevelPrediction		plpResult saved to ..\~/project/PredDrugInducedKidneyInjury/output/Analysis_14\plpResult
